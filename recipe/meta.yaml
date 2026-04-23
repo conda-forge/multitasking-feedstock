@@ -1,5 +1,5 @@
 {% set name = "multitasking" %}
-{% set version = "0.0.12" %}
+{% set version = "0.0.13" %}
 
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/multitasking-{{ version }}.tar.gz
-  sha256: 2fba2fa8ed8c4b85e227c5dd7dc41c7d658de3b6f247927316175a57349b84d1
+  sha256: d896b5df877c9ca5eeddbf0e5994124694d6cb535aba698fb23344c7025155a1
 
 build:
   number: 0
